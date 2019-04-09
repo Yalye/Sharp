@@ -1,3 +1,4 @@
+![a](./resources/collections.png)
 
 ### ArrayList
 ArrayList is the most commonly used List, it's implemented using array and it allows random access. Its shortcomings are:
