@@ -155,7 +155,5 @@ SELECT sub.*
  WHERE sub.resolution = 'NONE'
 ```
 
-
-
 ### References
 https://community.modeanalytics.com/sql/tutorial/sql-operators/
