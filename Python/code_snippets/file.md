@@ -21,3 +21,10 @@ ret = worksheet.write_row(row, 0, ['a', 'b'])
 workbook.close()
 ```
 
+### json read
+```
+import json
+
+```
+
+### json write
