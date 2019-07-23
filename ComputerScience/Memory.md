@@ -21,4 +21,5 @@ Text: contains code executable instructions. known as code segment or text segme
 Data: contain global or static variables pre-defined
 BSS: contain global or static variables not pre-defined
 Heap: shared by threads, managed by malloc, calloc, realloc, and free. grows to larger addresses towards Stack area.
-Stack: contains program stack. grows to smaller addresses towards Heap, when they meet, free memory was exhausted. 
+Stack: contains program stack. grows to smaller addresses towards Heap, when they meet, free memory was exhausted. Different thread has different stack area.
+https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap

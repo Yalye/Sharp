@@ -22,3 +22,9 @@ awk -F "}, {" 'NR==1 {print $1}' trends_available.txt        --- print first lin
 
 ### split file into list
 awk  '{gsub(/}, {/, "\n" ); print ;}' trends_available.txt > list.txt
+
+### count specified word 
+tr ' ' '\n' < FILE | grep WORD | wc -l
+
+
+

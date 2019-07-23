@@ -18,3 +18,14 @@ iptables -I INPUT -p icmp --icmp-type echo-request -j DROP
 
 ping use ICMP protocal which is used by network devices to send error messages and operational information indicating.
 
+### copy all files exclude a specific directory
+rsync -av --progress ./ ../local_dir/ --exclude log
+rsync -az -e "ssh -p 13787" --progress ../local_dir --exclude ../local_dir/log root@10.10.31.50:/root/remote_dir/     --ignore-existing
+
+### split file and combine file
+split -b 10M a.zip b.
+cat b.?? > a.zip
+
+### delete all sub-directory
+rm -R -- */
+find -mindepth 1 -maxdepth 1 -type d -print0 | xargs -0 rm -R
