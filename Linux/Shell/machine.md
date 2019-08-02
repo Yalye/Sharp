@@ -1,0 +1,8 @@
+
+### server authentication
+client use the known_hosts file in `~/.ssh/known_hosts` to remember servers you've already connected to. 
+
+### user authentication 
+a user need present some credential to access a server:
+ * account and password
+ * user knows the private key and public key in `~/.ssh/authorized_keys`
