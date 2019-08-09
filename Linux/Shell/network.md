@@ -17,5 +17,8 @@ netstat -tnpa | grep 'ESTABLISHED.*sshd' | wc -l
 ### ssh connection limit
 grep MaxStartups /etc/ssh/sshd_config
 
-
-
+### network port 
+IANA has divided ipv4 port number into three ranges:
+0-1023 : system or well-known ports
+1024-49151: user or registered ports
+49152-65535: dynamic/private/ephemeral ports
