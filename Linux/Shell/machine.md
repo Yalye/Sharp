@@ -7,6 +7,12 @@ a user need present some credential to access a server:
  * account and password
  * user knows the private key and public key in `~/.ssh/authorized_keys`
 
+### system version
+cat /proc/version 
+
+### cpu info
+cat /proc/cpuinfo 
+
 ### open file 
 cat /proc/sys/fs/file-nr
 

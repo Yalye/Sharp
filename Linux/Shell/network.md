@@ -11,6 +11,11 @@ firewall-cmd --permanent --remove-rich-rule="rule family="ipv4" source address="
 firewall-cmd --reload
 firewall-cmd --permanent --list-all
 
+### open port
+firewall-cmd --add-port=9092/tcp --permanent
+firewall-cmd --reload
+firewall-cmd --list-ports
+
 ### find ssh connect
 netstat -tnpa | grep 'ESTABLISHED.*sshd' | wc -l
 

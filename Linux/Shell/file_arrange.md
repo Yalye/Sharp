@@ -53,35 +53,5 @@ cat file1 file2 | sort | uniq  > file3 (duplicate as one row)
 cat file1 file2 > file3
 paste file1 file2 > file3
 
-
-## 去重
- 重复的多行记为一行
-sort file |uniq 
-
-重复的行全部去掉
-sort file |uniq -u
-
-## 显示文件中的指定行
-*注意两种方法的顺序
-从第3000行开始，显示1000行。即显示3000~3999行
-cat filename | tail -n +3000 | head -n 1000
-显示1000行到3000行
-cat filename| head -n 3000 | tail -n +1000
-
-分解：
-    tail -n 1000：显示最后1000行
-    tail -n +1000：从1000行开始显示，显示1000行以后的
-    head -n 1000：显示前面1000行
-或者用sed命令
-sed -n '5,10p' filename 只查看文件的第5行到第10行。
-
-
-查看系统io
-iostat -x 1
-
-删除行
-sed -i '3d' 1.txt
-
-
 ### References
 [itsfoss tar-vs-zip-vs-gz](https://itsfoss.com/tar-vs-zip-vs-gz/)
