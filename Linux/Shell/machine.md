@@ -6,3 +6,8 @@ client use the known_hosts file in `~/.ssh/known_hosts` to remember servers you'
 a user need present some credential to access a server:
  * account and password
  * user knows the private key and public key in `~/.ssh/authorized_keys`
+
+### open file 
+cat /proc/sys/fs/file-nr
+
+
