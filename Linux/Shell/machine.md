@@ -16,4 +16,24 @@ cat /proc/cpuinfo
 ### open file 
 cat /proc/sys/fs/file-nr
 
+### commands
+ * printenv
+ * uname
+ * hostname
+ * ip
+ * ifconfig
+ * task
+ * write
+ * echo
+ * printf
+ * yes
+ * seq
+ * cal
+ * date
+ * ntpdate
+ * yum
+ * rpm
+
+
+
 

@@ -12,3 +12,4 @@ cat status
 * top
 * free
 * xload
+* nice
