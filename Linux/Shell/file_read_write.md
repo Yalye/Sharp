@@ -27,6 +27,15 @@ awk  '{gsub(/}, {/, "\n" ); print ;}' trends_available.txt > list.txt
 tr ' ' '\n' < FILE | grep WORD | wc -l
 
 
+### command 
+ * grep
+ * egrep
+ * fgrep
+ * tr
+ * sort
+ * uniq
+ * tee
+
 
 ## 显示文件中的指定行
 *注意两种方法的顺序

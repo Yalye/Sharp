@@ -19,3 +19,18 @@ usermod -d /data/ftp_path/test_ftp test_user
 usermod -aG wheel test_user
 
 ### tip
+
+
+### commands
+ * useradd
+ * userdel
+ * usermod
+ * passwd
+ * chfn
+ * chsh
+ * su
+ * sudo
+ * groups
+ * groupadd
+ * groupdel
+ * groupmod

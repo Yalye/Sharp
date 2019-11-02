@@ -1,5 +1,11 @@
 
-### stat
+### file information
+stat file_name
+
+### line count, word count and byte count of a file
+wc file_name
+
+### 
 
 
 
