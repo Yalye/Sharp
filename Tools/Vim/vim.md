@@ -1,19 +1,9 @@
 
-### comment
-select lines, then `:norm i#` to comment  
-select lines, then `:norm x` to uncomment  
-uncomment: `ctrl + v` to enter VISUAL BLOCK mode, then go down to select all lines's `#`, press `x`  
-comment: `ctrl + v` to enter VISUAL BLOCK mode, then go down to select all lines's start, `Shift i`, enter the INSERT mode, then press `#`. then `Esc`
+### repeat command
+`.`
 
-### indent
-use `>>` to indent, use `<<` to unindent
-`5>>` indent 5 lines
-`shift + >` to indent selection              
-`shift + <` to unindent selection   
-`>%` or `<%`: indent a curly-braces block (including the brace)  
-`>iB` or `<iB`: indent a curly-braces block(within the block)  
+### custom repeat 
+select lines --> `:'<,'> normal command` --- repeat command on selected lines
+`:%normal command` --- repeat command on all lines
+`:'<,'> normal .`  --- repeat last command on selected lines
 
-### selection
-gv select last selection  
-:set paste        enable paste   
-:set nopaste  
