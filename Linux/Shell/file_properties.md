@@ -23,5 +23,7 @@ wc file_name
  * chgrp
  * chmod
  * umask
+ * setfacl
+ * getfacl 
  * chattr
  * lsattr

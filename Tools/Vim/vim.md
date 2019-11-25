@@ -6,7 +6,8 @@ uncomment: `ctrl + v` to enter VISUAL BLOCK mode, then go down to select all lin
 comment: `ctrl + v` to enter VISUAL BLOCK mode, then go down to select all lines's start, `Shift i`, enter the INSERT mode, then press `#`. then `Esc`
 
 ### indent
-use `>>` to indent, use `<<` to unindent  
+use `>>` to indent, use `<<` to unindent
+`5>>` indent 5 lines
 `shift + >` to indent selection              
 `shift + <` to unindent selection   
 `>%` or `<%`: indent a curly-braces block (including the brace)  
