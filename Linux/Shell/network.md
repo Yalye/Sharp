@@ -28,6 +28,9 @@ IANA has divided ipv4 port number into three ranges:
 1024-49151: user or registered ports
 49152-65535: dynamic/private/ephemeral ports
 
+### sar 
+sar -n DEV 1
+
 ### commands
  * ip
  * ifconfig
