@@ -25,4 +25,13 @@ Stack: contains program stack. grows to smaller addresses towards Heap, when the
 https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
 
 
+
+### 'a' and 97 stored the same in memory
+Yes, they both stored like this:
+```
+0x00000004: 0x00000061
+```
+So, how can the machine know if the value is an integer or char or something else. Actually it doesn't care. The compiler ensures the operation on the value is valid through type-safety. when the program runs, the machine doesn't verify the validatiion, it just executes each step blindly, assuming everything is OK.
+
 ### References
+https://softwareengineering.stackexchange.com/questions/291950/are-data-type-declarators-like-int-and-char-stored-in-ram-when-a-c-program-e
