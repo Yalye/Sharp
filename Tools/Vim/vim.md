@@ -40,6 +40,14 @@ vim -x file_name
 `mm` mark
 ``m` jump to mark
 
+### 4 space width tab 
+```
+:set expandtab
+:set shiftwidth=4
+```
+write to ~/.vimrc file
+
+
 ### run shell
 `:! ls`             
 `:! ls -ltr % `    show current file

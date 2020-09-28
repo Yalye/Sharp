@@ -8,7 +8,10 @@ wc file_name
 ### all file size sum
 dir | { ls -FaGl "${@}" | awk '{ total += $4; print }; END { print total }'; }
 
-
+### setfacl and getfacl
+getfacl dir
+setfacl -m g::r-x dir   --- set group acl to r-x
+setfacl -b dir     ---- delete all acl 
 
 ### 
 
