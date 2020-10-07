@@ -1,7 +1,5 @@
 # Sharp
-step forward 
-
-
+step forward to be 1% better at computer science than yesterday.
 
 
 ### ComputerScience
