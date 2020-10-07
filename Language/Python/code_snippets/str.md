@@ -1,0 +1,4 @@
+
+
+### reverse find
+str.rfind('.')

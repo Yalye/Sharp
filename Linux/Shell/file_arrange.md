@@ -45,6 +45,11 @@ tar -zxvf --exclude=./folder/a --exclude=./folder/b.txt a.tar.gz folder/
  * .tar -- uncompressed archive file
  * .zip -- compressed archive file
  * .gz -- file compressed using gzip
+zip -r a.zip folder   
+zip -re a.zip folder --- compress with password
+
+### bzip
+bzip2 -d a.bz2
 
 ### combine file
 cat file1 file2 | sort | uniq -d > file3 (only duplicate)
@@ -52,6 +57,9 @@ cat file1 file2 | sort | uniq -u > file3 (remove duplicate)
 cat file1 file2 | sort | uniq  > file3 (duplicate as one row)
 cat file1 file2 > file3
 paste file1 file2 > file3
+
+### sz zc
+yum install lrzsz
 
 ### References
 [itsfoss tar-vs-zip-vs-gz](https://itsfoss.com/tar-vs-zip-vs-gz/)
