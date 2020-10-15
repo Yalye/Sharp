@@ -25,9 +25,12 @@ list.indexOf(element);  // -1 => not in list
 
 ### map
 ```
-
+//
 ```
 
-### sublist
 
 java程序运行class文件,对于有包名的类,java把包名当成文件夹处理."包名+类名"相当于"文件夹目录+类名"来寻找类。
+
+
+### Ref
+[https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map](https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map)
