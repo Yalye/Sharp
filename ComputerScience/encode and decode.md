@@ -1,5 +1,13 @@
 
+### what is encode? and why we need encoding? when does encoding happpen?
 
+### encoding example?
+乱码？
+文本文件？
+http请求？
+解析字符串？
+
+### 
 
 
 
