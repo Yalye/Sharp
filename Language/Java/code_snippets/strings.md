@@ -6,3 +6,13 @@ String myString = "C++ " + "Java";
 StringBuilder stringBuilder = new StringBuilder(100);
 stringBuilder.append("C++ ");
 stringBuilder.append("Java");
+
+### split
+```
+//substring
+myString.substring(1, 2);
+
+
+```
+
+
