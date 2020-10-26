@@ -25,7 +25,17 @@ list.indexOf(element);  // -1 => not in list
 
 ### map
 ```
-//
+//initialize map
+public static final Map<String, String> myMap;
+  static {
+    myMap = new HashMap<>();
+    myMap.put("a","b");
+  }
+
+Map<String, String> myMap  = new HashMap<String, String>() {{
+    put("key1", "value1");
+    put("key2", "value2");
+}};
 ```
 
 ### set
@@ -42,4 +52,5 @@ java程序运行class文件,对于有包名的类,java把包名当成文件夹�
 
 
 ### Ref
-[https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map](https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map)
+[https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map](https://stackoverflow.com/questions/46898/how-do-i-efficiently-iterate-over-each-entry-in-a-java-map)   
+[https://www.baeldung.com/java-initialize-hashmap](https://www.baeldung.com/java-initialize-hashmap)   
