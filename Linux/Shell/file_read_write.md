@@ -26,6 +26,10 @@ awk  '{gsub(/}, {/, "\n" ); print ;}' trends_available.txt > list.txt
 ### count specified word 
 tr ' ' '\n' < FILE | grep WORD | wc -l
 
+### read file in binary or hexadecimal
+`xxd -b file`   binary
+`xxd file` hexadecimal
+
 
 ### command 
  * grep
