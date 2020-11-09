@@ -5,12 +5,14 @@
 
 If the text isn't English and you don't told people what 'character encoding' you use is, they can't read the text correctly.
 
-Words and sentences are created from characters, and characters that are needed for a specific purpose are grouped into a **character set**.  In each character set, each character is associated with a number, called a **code point**?? todo: does each character has a unique code point? does each character only belongs to a set? 
+Words and sentences are created from characters, and characters that are needed for a specific purpose are grouped into a **character set**.  In each character set, each character is associated with a number, called a **code point** different code point represents different character in different character set. 
+
+Only ASCII characters are encoded with a single byte in UTF-8
 
 
+### how utf-8 encode character? 
 
-
-
+utf-8 encoding tables
 
 
 11/8 写完 编码与解码 长文，  **从头到尾说清楚**
