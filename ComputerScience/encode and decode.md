@@ -1,5 +1,9 @@
+### 
+
 
 ### what is encode? and why we need encoding? when does encoding happpen?
+
+
 
 
 
@@ -14,6 +18,10 @@ Only ASCII characters are encoded with a single byte in UTF-8
 
 utf-8 encoding tables
 
+
+### 乱码是怎么回事？ 乱码是怎么展示的？ 
+
+### 16 and ‘16’ memory difference 
 
 11/8 写完 编码与解码 长文，  **从头到尾说清楚**
 
