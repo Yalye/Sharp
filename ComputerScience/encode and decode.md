@@ -21,6 +21,9 @@ it's like language translation
 
 If the text isn't English and you don't told people what 'character encoding' you use is, they can't read the text correctly.
 
+### encoding type and charset ? 
+unicode is a charset? utf-8 is a unicode encoding type?
+
 ### different encoding type
 when ascii, when unicode, when utf8
 
@@ -33,6 +36,7 @@ when ascii, when unicode, when utf8
  * fix-width and variable-width
  * different data size
 
+ansi is not 
 
 ### how utf-8 encode character? 
  * 1, 2 ,4 when ? why
@@ -42,14 +46,34 @@ utf-8 encoding tables
 
 ### 乱码是怎么回事？ 乱码是怎么展示的？ 
 
-### 写程序中要如何统一成utf8
+### 写程序中要如何统一成utf8?
  * 程序文件要用utf8文件格式写入
  * 交付的数据要用utf8存储
  * 网络传输的数据要基于utf8 进行编码
 
 ### 16 and ‘16’ memory difference 
 
-11/8 写完 编码与解码 长文，  **从头到尾说清楚**
+### mysql ---- !!!!start!!!!
+
+utf8mb4 encoding
+mysql支持的 utf8 编码最大字符长度为 3 字节，如果遇到 4 字节的宽字符就会插入异常了
+
+insert village_people VALUES(4444, "chi", "4444")
+insert village_people VALUES(3333, "😷", "3333")
+
+http://xahlee.info/comp/unicode_index.html
+😷 FACE WITH MEDICAL MASK
+128567
+U+1f637
+
+
+
+mysql utf-8 support 3-bytes character.
+
+### ansi is not encoding type
+ansi is the system encoding type, use chcp command can get the type; 936 means GBK, while 65001 means utf-8.
+
+
 
 ### encoding example?
 乱码？
