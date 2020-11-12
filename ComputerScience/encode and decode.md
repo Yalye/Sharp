@@ -90,3 +90,4 @@ http请求？
 
 ### Ref
 [https://lemire.me/blog/2020/10/20/ridiculously-fast-unicode-utf-8-validation/](https://lemire.me/blog/2020/10/20/ridiculously-fast-unicode-utf-8-validation/)
+[https://www.jianshu.com/p/f4b13f1cb23c](https://www.jianshu.com/p/f4b13f1cb23c)
