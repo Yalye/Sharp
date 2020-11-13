@@ -38,6 +38,8 @@ when ascii, when unicode, when utf8
 
 ansi is not 
 
+get character set number: https://graphemica.com/%F0%9F%98%B7
+
 ### how utf-8 encode character? 
  * 1, 2 ,4 when ? why
 
@@ -71,7 +73,7 @@ U+1f637
 mysql utf-8 support 3-bytes character.
 
 ### ansi is not encoding type
-ansi is the system encoding type, use chcp command can get the type; 936 means GBK, while 65001 means utf-8.
+ansi is the system encoding type, it's depends on the system setting(Windows code pages), use chcp command can get the type; 936 means GBK, while 65001 means utf-8. 
 
 
 
