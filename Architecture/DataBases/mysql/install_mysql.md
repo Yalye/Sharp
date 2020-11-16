@@ -35,6 +35,23 @@ docker run -d --restart always -p 43306:3306 \
 
 ```
 
+### install mysql5.7 no docker
+```
+# wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm 
+# rpm -ivh mysql-community-release-el7-5.noarch.rpm
+# yum -y install mysql-server
+# systemctl start mysqld
+
+sudo grep 'temporary password' /var/log/mysqld.log
+alter user 'root'@'localhost' identified by 'asdf.123';
+
+```
+
+### my.cnf
+```
+
+```
+
 
 ### Q&A
  * where does mysql find the my.cnf

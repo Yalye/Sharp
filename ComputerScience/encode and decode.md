@@ -53,6 +53,11 @@ utf-8 encoding tables
  * 交付的数据要用utf8存储
  * 网络传输的数据要基于utf8 进行编码
 
+
+目前的Unicode字符分为17组编排，每组称为平面（Plane），而每平面拥有65536（即216）个代码点。然而目前只用了少数平面
+
+GBK向下兼容2312
+
 ### 16 and ‘16’ memory difference 
 
 ### mysql ---- !!!!start!!!!
@@ -86,7 +91,9 @@ http请求？
 
 ### 字体？
 
-### 
+### Big-endian and little-endian
+Big-endian: MSB in lower address, LSB in higher address; ---> Mac; TCP/IP; JVM;
+little-endian: opposite to the Big-endian;   ---> Intel X86
 
 
 
