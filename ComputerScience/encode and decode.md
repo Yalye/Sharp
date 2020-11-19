@@ -1,6 +1,3 @@
-### 
-
-
 ### what is encode? and why we need encoding? when does encoding happpen?
 
 assigns a number to each character for digital representation.  common example is Morse code.
@@ -17,7 +14,6 @@ Only ASCII characters are encoded with a single byte in UTF-8
 
 ### encoding and decoding
 it's like language translation
-
 
 If the text isn't English and you don't told people what 'character encoding' you use is, they can't read the text correctly.
 
@@ -41,32 +37,11 @@ ansi is not
 get character set number: https://graphemica.com/%F0%9F%98%B7
 
 ### how utf-8 encode character? 
- * 1, 2 ,4 when ? why
-
-utf-8 encoding tables
 
 
-### 乱码是怎么回事？ 乱码是怎么展示的？ 
 
-### 写程序中要如何统一成utf8?
- * 程序文件要用utf8文件格式写入
- * 交付的数据要用utf8存储
- * 网络传输的数据要基于utf8 进行编码
-
-
-目前的Unicode字符分为17组编排，每组称为平面（Plane），而每平面拥有65536（即216）个代码点。然而目前只用了少数平面
-
-GBK向下兼容2312
-
-### 16 and ‘16’ memory difference 
-
-### mysql ---- !!!!start!!!!
-
-utf8mb4 encoding
-mysql支持的 utf8 编码最大字符长度为 3 字节，如果遇到 4 字节的宽字符就会插入异常了
-
-insert village_people VALUES(4444, "chi", "4444")
-insert village_people VALUES(3333, "😷", "3333")
+### unicode
+17 planes
 
 http://xahlee.info/comp/unicode_index.html
 😷 FACE WITH MEDICAL MASK
@@ -75,18 +50,11 @@ U+1f637
 
 
 
-mysql utf-8 support 3-bytes character.
 
 ### ansi is not encoding type
 ansi is the system encoding type, it's depends on the system setting(Windows code pages), use chcp command can get the type; 936 means GBK, while 65001 means utf-8. 
 
-
-
 ### encoding example?
-乱码？
-文本文件？
-http请求？
-解析字符串？
 
 
 ### 字体？
