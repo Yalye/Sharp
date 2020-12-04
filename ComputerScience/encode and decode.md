@@ -57,7 +57,7 @@ ansi is the system encoding type, it's depends on the system setting(Windows cod
 ### encoding example?
 
 
-### 字体？
+### fonts
 
 ### Big-endian and little-endian
 Big-endian: MSB in lower address, LSB in higher address; ---> Mac; TCP/IP; JVM;
@@ -67,4 +67,3 @@ little-endian: opposite to the Big-endian;   ---> Intel X86
 
 ### Ref
 [https://lemire.me/blog/2020/10/20/ridiculously-fast-unicode-utf-8-validation/](https://lemire.me/blog/2020/10/20/ridiculously-fast-unicode-utf-8-validation/)
-[https://www.jianshu.com/p/f4b13f1cb23c](https://www.jianshu.com/p/f4b13f1cb23c)
