@@ -27,6 +27,7 @@ grant all on inno_test.* to 'inno_user'@'localhost';
 create table people(people_id bigint NOT NULL, name varchar(200) NULL,nick_name varchar(200) NULL);
 
 
+
 ### other
 #### view mysql version
 SHOW VARIABLES LIKE "%version%";
