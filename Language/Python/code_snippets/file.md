@@ -1,4 +1,12 @@
 
+### url parse
+```
+from urllib import parse
+import os.path
+url_path = parse.urlparse(url).path
+os.path.split(url_path)
+```
+
 ### extract zip file
 ```
 import zipfile
