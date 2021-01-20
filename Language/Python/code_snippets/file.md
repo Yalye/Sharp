@@ -1,10 +1,26 @@
+
+### url parse
+```
+from urllib import parse
+import os.path
+url_path = parse.urlparse(url).path
+os.path.split(url_path)
+```
+
+### extract zip file
+```
+import zipfile
+with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:
+    zip_ref.extractall(directory_to_extract_to)
+```
+
 ### file name split
 os.path.splitext(whole_file_path) result a list of path and extension
 
-## 分隔文件和文件路径
+## split path
 os.path.split(whole_file_path)
 
-## 复制文件，使用shutil
+## copy file -->shutil
 ```python
 def move_file_to(source_dir, target_dir):
     shutil.copy(source_dir, target_dir)
@@ -48,5 +64,6 @@ workbook.close()
 import json
 
 ```
+
 
 ### json write
