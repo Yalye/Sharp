@@ -18,6 +18,10 @@ http {
 }
 ```
 
+### nginx command
+nginx -V  --> show the configuration
+nginx -c /usr/local/nginx/conf 
+
 
 ### Ref
 [http://nginx.org/](http://nginx.org/)  
