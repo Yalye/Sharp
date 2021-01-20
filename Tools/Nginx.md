@@ -21,6 +21,9 @@ http {
 ### nginx command
 nginx -V  --> show the configuration
 nginx -c /usr/local/nginx/conf 
+nginx -s stop or kill -9 two-process-id
+
+test change prefix location --> ./sbin/nginx -p /home/online_nginx -t 
 
 
 ### Ref

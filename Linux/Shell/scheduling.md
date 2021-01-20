@@ -18,6 +18,24 @@ Operators:
 / - divide a value into steps
 ```
 
+### start a process if it's down
+```
+#!/bin/bash
+
+process=YourProcessName
+makerun="/usr/bin/program"
+
+if ps ax | grep -v grep | grep $process > /dev/null
+then
+    exit
+else
+    $makerun &
+fi
+
+exit
+```
+
+then add the script into crontab.
 
 
 ### commands
