@@ -1,5 +1,5 @@
 
-### laod balancing
+### load balancing
 ```
 http {
     upstream myapp1 {
@@ -17,6 +17,9 @@ http {
     }
 }
 ```
+
+### configure params
+`expires -1;`  ---> remove cache
 
 ### nginx command
 nginx -V  --> show the configuration
