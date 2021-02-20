@@ -16,6 +16,8 @@ Operators:
 , - specify separate individual values
 - - a range of values
 / - divide a value into steps
+
+0 0 1 * * cd /home/test/; /bin/bash /home/test/crontab_restart.sh   --> run the script once a month
 ```
 
 ### start a process if it's down
