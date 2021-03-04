@@ -1,7 +1,35 @@
 
 
 ### Rules
+#### Anchors 
+```
+(^ $)
+^abc  => matches any string that starts with abc
+abc$  =>  matches any string that ends with abc
 
+```
+
+#### Quantifiers 
+```
+(*+? {})
+* >= 0;  + >= 1;  ? = 0 or = 1; {} range
+abc* => matches a string that has ab followed by zero or more c
+abc+ => matches a string that has ab followed by one or more c
+abc? => matches a string that has ab followed by zero or one c
+abc{2} => matches a string that has ab followed by 2 c
+abc{2,} => 2 or more c
+abc{2, 10} => 2 up to 10 c
+a(bc){2} => 2 bc 
+
+```
+
+#### OR operator 
+```
+| []
+a(b|c) => matches a string that has a followed by b or c
+a[bc]  => matches a string that has a followed by b or c
+**differences**
+```
 
 ### example
 ```
