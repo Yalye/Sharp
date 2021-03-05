@@ -31,6 +31,16 @@ a[bc]  => matches a string that has a followed by b or c
 **differences**
 ```
 
+#### Character
+```
+\d \w \s .  \D \W \S
+\d => matches a single character that is a digit .  \D non-digit
+\w => matches a word character (alphanumeric character plus underscore).  \W non-word
+\s => matches a whitespace character (includes tabs and line breaks). \S not whitespace
+. => matches any character
+
+```
+
 ### example
 ```
 When You Are Old 
