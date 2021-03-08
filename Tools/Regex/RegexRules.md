@@ -1,17 +1,17 @@
 
 
 ### Rules
-#### Anchors 
+#### Anchors  (^ $)
 ```
-(^ $)
+
 ^abc  => matches any string that starts with abc
 abc$  =>  matches any string that ends with abc
 
 ```
 
-#### Quantifiers 
+#### Quantifiers  (\*+? {})
 ```
-(*+? {})
+
 * >= 0;  + >= 1;  ? = 0 or = 1; {} range
 abc* => matches a string that has ab followed by zero or more c
 abc+ => matches a string that has ab followed by one or more c
@@ -23,23 +23,35 @@ a(bc){2} => 2 bc
 
 ```
 
-#### OR operator 
+#### OR operator  | []
 ```
-| []
 a(b|c) => matches a string that has a followed by b or c
 a[bc]  => matches a string that has a followed by b or c
 **differences**
 ```
 
-#### Character
-```
-\d \w \s .  \D \W \S
+#### Character  \d \w \s .  \D \W \S
+``` 
 \d => matches a single character that is a digit .  \D non-digit
 \w => matches a word character (alphanumeric character plus underscore).  \W non-word
 \s => matches a whitespace character (includes tabs and line breaks). \S not whitespace
 . => matches any character
 
 ```
+
+#### Grouping and capturing  ()
+```
+a(bc)  => parentheses create a capturing group with value bc
+a(?:bc)*  => using ?: we disable the capturing group
+a(?<foo>bc) => using ?<foo> we put a name to the group
+```
+
+#### Bracket expressions — []
+[abc]  => matches a string that has either an a or a b or a c, same as a|b|c
+[a-c]  =>  same as a|b|c
+[a-fA-F0-9] => a string that represents a single hexadecimal digit, case insensitively
+[^a-zA-Z]        a string that has not a letter from a to z or from A to Z.
+
 
 ### example
 ```
