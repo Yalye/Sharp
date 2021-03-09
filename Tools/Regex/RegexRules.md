@@ -52,6 +52,9 @@ a(?<foo>bc) => using ?<foo> we put a name to the group
 [a-fA-F0-9] => a string that represents a single hexadecimal digit, case insensitively
 [^a-zA-Z]        a string that has not a letter from a to z or from A to Z.
 
+#### Boundaries — \b and \B
+
+#### Back-references — \1
 
 ### example
 ```
