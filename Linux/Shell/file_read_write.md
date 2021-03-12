@@ -30,6 +30,9 @@ tr ' ' '\n' < FILE | grep WORD | wc -l
 `xxd -b file`   binary
 `xxd file` hexadecimal
 
+### fine all files with specific text in them
+`grep -rnw "./folder" -e "text"`
+
 
 ### command 
  * grep
