@@ -51,6 +51,9 @@ zip -re a.zip folder --- compress with password
 ### bzip
 bzip2 -d a.bz2
 
+### ln -- soft link
+ln -sf file_exist link
+
 ### combine file
 cat file1 file2 | sort | uniq -d > file3 (only duplicate)
 cat file1 file2 | sort | uniq -u > file3 (remove duplicate)
