@@ -21,7 +21,7 @@ awk -F "}, {" '{print $1}' trends_available.txt              --- split each line
 awk -F "}, {" 'NR==1 {print $1}' trends_available.txt        --- print first line of result
 
 ### split file into list
-awk  '{gsub(/}, {/, "\n" ); print ;}' trends_available.txt > list.txt
+awk  '{gs ub(/}, {/, "\n" ); print ;}' trends_available.txt > list.txt
 
 ### count specified word 
 tr ' ' '\n' < FILE | grep WORD | wc -l
@@ -29,6 +29,13 @@ tr ' ' '\n' < FILE | grep WORD | wc -l
 ### read file in binary or hexadecimal
 `xxd -b file`   binary
 `xxd file` hexadecimal
+
+### fine all files with specific text in them
+`grep -rnw "./folder" -e "text"`
+
+### list the directory tree
+`tree -N -L 2`
+
 
 
 ### command 
