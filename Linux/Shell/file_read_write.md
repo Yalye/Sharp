@@ -30,8 +30,11 @@ tr ' ' '\n' < FILE | grep WORD | wc -l
 `xxd -b file`   binary
 `xxd file` hexadecimal
 
-### fine all files with specific text in them
+### find all files with specific text in them
 `grep -rnw "./folder" -e "text"`
+
+### find files with two strings in them
+`find . -type f -exec grep -l 'text1' {} \; | xargs grep -l 'text2'`
 
 ### list the directory tree
 `tree -N -L 2`
