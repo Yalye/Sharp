@@ -1,10 +1,12 @@
 
 
 #### Company
-[Google Blog](https://blog.google/)
+[Google Blog](https://blog.google/) 
+[Google Blog Technology](https://www.blog.google/technology/)
+[Google Blog Developers](https://developers.googleblog.com/)
+[https://www.blog.google/technology/safety-security/]
 [StackOverflow Blog](https://stackoverflow.blog/)
 [lambdafaktorie](https://lambdafaktorie.com/blog/)
-[Google Developers Blog](https://developers.googleblog.com/)
 
 
 
