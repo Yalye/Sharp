@@ -11,3 +11,9 @@
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)
+
+
+
+
+#### others
+[drorpoleg: the future & history of work, cities, and finance ](https://www.drorpoleg.com/)
