@@ -41,5 +41,9 @@ source venv/bin/activate
 
 ```
 
-
+### install jupyter
+```
+pip install jupyter
+jupyter notebook
+```
 
