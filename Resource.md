@@ -23,4 +23,5 @@
 [drorpoleg: the future & history of work, cities, and finance ](https://www.drorpoleg.com/)
 [https://interconnected.org/home/2021](https://interconnected.org/home/2021)
 [https://web.archive.org/](https://web.archive.org/)
+[https://stopa.io/](https://stopa.io/)
 
