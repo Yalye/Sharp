@@ -8,6 +8,7 @@
 [StackOverflow Blog](https://stackoverflow.blog/)
 [lambdafaktorie](https://lambdafaktorie.com/blog/)
 [IEEE Tech Careers](https://spectrum.ieee.org/at-work/tech-careers)
+[https://www.nytimes.com/section/technology](https://www.nytimes.com/section/technology)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
@@ -15,6 +16,7 @@
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
+[https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
 
 #### Medium 
 [https://medium.com/google-cloud](https://medium.com/google-cloud)
@@ -24,4 +26,5 @@
 [https://interconnected.org/home/2021](https://interconnected.org/home/2021)
 [https://web.archive.org/](https://web.archive.org/)
 [https://stopa.io/](https://stopa.io/)
+[https://w3techs.com/blog](https://w3techs.com/blog)
 
