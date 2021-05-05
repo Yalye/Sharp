@@ -30,4 +30,5 @@
 [https://w3techs.com/blog](https://w3techs.com/blog)
 [https://arstechnica.com/gadgets/](https://arstechnica.com/gadgets/)
 [https://developers.redhat.com/](https://developers.redhat.com/)
+[https://blog.container-solutions.com/](https://blog.container-solutions.com/)
 
