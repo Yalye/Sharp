@@ -13,6 +13,7 @@
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
 [https://tianhui.li/writing](https://tianhui.li/writing)  
+[Computer Science Professor Daniel Lemire](https://lemire.me/blog/) 
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
@@ -27,4 +28,6 @@
 [https://web.archive.org/](https://web.archive.org/)
 [https://stopa.io/](https://stopa.io/)
 [https://w3techs.com/blog](https://w3techs.com/blog)
+[https://arstechnica.com/gadgets/](https://arstechnica.com/gadgets/)
+[https://developers.redhat.com/](https://developers.redhat.com/)
 
