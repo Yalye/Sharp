@@ -9,6 +9,7 @@
 [lambdafaktorie](https://lambdafaktorie.com/blog/)
 [IEEE Tech Careers](https://spectrum.ieee.org/at-work/tech-careers)
 [https://www.nytimes.com/section/technology](https://www.nytimes.com/section/technology)
+[https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
