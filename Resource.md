@@ -15,6 +15,7 @@
 [Lars Wirzenius](https://blog.liw.fi/)  
 [https://tianhui.li/writing](https://tianhui.li/writing)  
 [Computer Science Professor Daniel Lemire](https://lemire.me/blog/) 
+[https://www.jefftk.com/p/](https://www.jefftk.com/p/)
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
@@ -32,4 +33,5 @@
 [https://arstechnica.com/gadgets/](https://arstechnica.com/gadgets/)
 [https://developers.redhat.com/](https://developers.redhat.com/)
 [https://blog.container-solutions.com/](https://blog.container-solutions.com/)
+
 
