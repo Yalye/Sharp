@@ -9,11 +9,13 @@
 [lambdafaktorie](https://lambdafaktorie.com/blog/)
 [IEEE Tech Careers](https://spectrum.ieee.org/at-work/tech-careers)
 [https://www.nytimes.com/section/technology](https://www.nytimes.com/section/technology)
+[https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
 [https://tianhui.li/writing](https://tianhui.li/writing)  
 [Computer Science Professor Daniel Lemire](https://lemire.me/blog/) 
+[https://www.jefftk.com/p/](https://www.jefftk.com/p/)
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
