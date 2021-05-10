@@ -10,6 +10,7 @@
 [IEEE Tech Careers](https://spectrum.ieee.org/at-work/tech-careers)
 [https://www.nytimes.com/section/technology](https://www.nytimes.com/section/technology)
 [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
+[https://aws.amazon.com/blogs](https://aws.amazon.com/blogs)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
