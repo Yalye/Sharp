@@ -13,6 +13,8 @@
 [https://aws.amazon.com/blogs](https://aws.amazon.com/blogs)
 
 #### News
+[https://news.ycombinator.com/](https://news.ycombinator.com/)
+[https://lobste.rs/](https://lobste.rs/)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
