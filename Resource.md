@@ -14,6 +14,8 @@
 [https://inside.java/](https://inside.java/)
 
 #### News
+[https://news.ycombinator.com/](https://news.ycombinator.com/)
+[https://lobste.rs/](https://lobste.rs/)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  
