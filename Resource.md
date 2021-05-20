@@ -24,6 +24,10 @@
 [https://www.jefftk.com/p/](https://www.jefftk.com/p/)
 [https://jvns.ca/](https://jvns.ca/)
 [https://rethinking.news/](https://rethinking.news/)
+[https://changelog.com/podcast](https://changelog.com/podcast)
+[https://blog.robertelder.org/](https://blog.robertelder.org/)
+[https://johnysswlab.com/](https://johnysswlab.com/)
+[https://www.benedat.com/blog/](https://www.benedat.com/blog/)
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
@@ -41,5 +45,6 @@
 [https://arstechnica.com/gadgets/](https://arstechnica.com/gadgets/)
 [https://developers.redhat.com/](https://developers.redhat.com/)
 [https://blog.container-solutions.com/](https://blog.container-solutions.com/)
+[https://howtomeasureghosts.substack.com/](https://howtomeasureghosts.substack.com/)
 
 
