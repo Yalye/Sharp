@@ -4,7 +4,7 @@
 [Google Blog](https://blog.google/) 
 [Google Blog Technology](https://www.blog.google/technology/)
 [Google Blog Developers](https://developers.googleblog.com/)
-[https://www.blog.google/technology/safety-security/]
+[https://www.blog.google/technology/safety-security/](https://www.blog.google/technology/safety-security/)
 [StackOverflow Blog](https://stackoverflow.blog/)
 [lambdafaktorie](https://lambdafaktorie.com/blog/)
 [IEEE Tech Careers](https://spectrum.ieee.org/at-work/tech-careers)
@@ -39,5 +39,6 @@
 [https://arstechnica.com/gadgets/](https://arstechnica.com/gadgets/)
 [https://developers.redhat.com/](https://developers.redhat.com/)
 [https://blog.container-solutions.com/](https://blog.container-solutions.com/)
+[https://computerhistory.org/](https://computerhistory.org/)
 
 
