@@ -22,6 +22,11 @@ firewall-cmd --add-port=9092/tcp --permanent
 firewall-cmd --reload
 firewall-cmd --list-ports
 
+### iptables
+iptables -A IN_public_allow -p tcp -m tcp --dport 1989 -m conntrack --ctstate NEW -j ACCEPT
+iptables-save > /etc/sysconfig/iptables
+iptables-restore < /etc/sysconfig/iptables
+
 ### find ssh connect
 netstat -tnpa | grep 'ESTABLISHED.*sshd' | wc -l
 
