@@ -11,6 +11,7 @@
 [https://www.nytimes.com/section/technology](https://www.nytimes.com/section/technology)
 [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 [https://aws.amazon.com/blogs](https://aws.amazon.com/blogs)
+[https://inside.java/](https://inside.java/)
 
 #### News
 [https://news.ycombinator.com/](https://news.ycombinator.com/)
@@ -22,6 +23,7 @@
 [Computer Science Professor Daniel Lemire](https://lemire.me/blog/) 
 [https://www.jefftk.com/p/](https://www.jefftk.com/p/)
 [https://jvns.ca/](https://jvns.ca/)
+[https://rethinking.news/](https://rethinking.news/)
 
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
