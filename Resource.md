@@ -16,6 +16,7 @@
 #### News
 [https://news.ycombinator.com/](https://news.ycombinator.com/)
 [https://lobste.rs/](https://lobste.rs/)
+[https://www.visualcapitalist.com/category/technology/](https://www.visualcapitalist.com/category/technology/)
 
 #### People
 [Lars Wirzenius](https://blog.liw.fi/)  

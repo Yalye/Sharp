@@ -18,3 +18,7 @@ google-news-rss-feeds[https://www.fivefilters.org/2021/google-news-rss-feeds/](h
 
 #### Awesome Serie
 Awesome [https://github.com/sindresorhus](https://github.com/sindresorhus)
+
+
+#### funny
+xkcd [https://xkcd.com/2015/](https://xkcd.com/2015/)
