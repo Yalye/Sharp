@@ -5,7 +5,10 @@ ps -T -p pid
 ### show tgid of a process or thread
 cat status
 
-
+### nohup disown &
+`&`:
+`nohup`:
+`disown`:
 
 ### command
 * ps
@@ -15,3 +18,7 @@ cat status
 * free
 * xload
 * nice
+
+
+### Ref
+[StackoverFlow](https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and)
