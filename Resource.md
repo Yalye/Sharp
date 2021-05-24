@@ -33,6 +33,8 @@
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
 [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
+[http://ai.stanford.edu/blog/](http://ai.stanford.edu/blog/)
+[http://blogs.harvard.edu/doc/](http://blogs.harvard.edu/doc/)
 
 #### Medium 
 [https://medium.com/google-cloud](https://medium.com/google-cloud)
