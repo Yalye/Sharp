@@ -56,5 +56,6 @@
 [https://blog.container-solutions.com/](https://blog.container-solutions.com/)
 [https://howtomeasureghosts.substack.com/](https://howtomeasureghosts.substack.com/)
 [https://computerhistory.org/](https://computerhistory.org/)
+[https://cloudflare.tv/schedule?start=2021-05-29T16%3A00%3A00.000Z&end=2021-06-05T16%3A00%3A00.000Z](https://cloudflare.tv/schedule?start=2021-05-29T16%3A00%3A00.000Z&end=2021-06-05T16%3A00%3A00.000Z)
 
 
