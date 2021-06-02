@@ -27,6 +27,9 @@ iptables -A IN_public_allow -p tcp -m tcp --dport 1989 -m conntrack --ctstate NE
 iptables-save > /etc/sysconfig/iptables
 iptables-restore < /etc/sysconfig/iptables
 
+iptables -A *****
+iptables -D *****
+
 ### find ssh connect
 netstat -tnpa | grep 'ESTABLISHED.*sshd' | wc -l
 
@@ -38,6 +41,11 @@ IANA has divided ipv4 port number into three ranges:
 0-1023 : system or well-known ports
 1024-49151: user or registered ports
 49152-65535: dynamic/private/ephemeral ports
+
+### selinux
+getenforce
+setenforce
+setstatus
 
 ### sar 
 sar -n DEV 1

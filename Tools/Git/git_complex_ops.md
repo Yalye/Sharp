@@ -9,7 +9,8 @@ $ git commit -c ORIG_HEAD                      # (4)
 ```
 
 
-### 
+### count the line number
+git log --since="2021-04-20" --before="2021-06-01" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "New line: %s, remove line: %s, total: %s\n", add, subs, loc }'
 
 
 

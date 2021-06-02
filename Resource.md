@@ -40,6 +40,10 @@
 #### Medium 
 [https://medium.com/google-cloud](https://medium.com/google-cloud)
 
+#### Lessons
+[https://www.cyberciti.biz/](https://www.cyberciti.biz/)
+[https://realpython.com/](https://realpython.com/)
+
 #### Group
 [https://privacyinternational.org/](https://privacyinternational.org/)
 [Changelog](https://changelog.com/posts)

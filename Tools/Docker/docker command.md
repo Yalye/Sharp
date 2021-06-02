@@ -1,7 +1,37 @@
 
 ### docker install
 ```
-sudo yum install -y containerd.io-1.2.2-3.el7.x86_64.rpm
+function Check () {
+  if [[ $? != 0 ]]; then
+    echo "install failed"
+    exit 1
+  fi
+}
+yum update
+yum -y install yum-utils
+Check
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+Check
+yum install -y docker-ce
+Check
+mkdir -p /etc/docker
+Check
+cat > /etc/docker/daemon.json <<eof
+{ 
+    "data-root": "/home/data/docker",
+    "storage-driver": "devicemapper"
+}
+eof
+Check
+systemctl daemon-reload
+systemctl enable docker
+Check
+systemctl restart docker
+Check
+which docker
+Check
+echo "install complete!"
+
 ```
 
 ### delete docker 
