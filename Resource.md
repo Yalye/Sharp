@@ -40,15 +40,13 @@
 #### Medium 
 [https://medium.com/google-cloud](https://medium.com/google-cloud)
 
-<<<<<<< HEAD
 #### Linux
 [https://www.cyberciti.biz/](https://www.cyberciti.biz/)
-=======
+
 #### Group
 [https://privacyinternational.org/](https://privacyinternational.org/)
 [Changelog](https://changelog.com/posts)
 [https://www.acm.org/](https://www.acm.org/)
->>>>>>> 521677708c8afef3ffccb604ffc5a0b59e34fd90
 
 #### others
 [drorpoleg: the future & history of work, cities, and finance ](https://www.drorpoleg.com/)
