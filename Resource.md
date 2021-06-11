@@ -32,6 +32,9 @@
 [https://johnysswlab.com/](https://johnysswlab.com/)
 [https://www.benedat.com/blog/](https://www.benedat.com/blog/)
 
+#### Voice
+[https://sixcolors.com/](https://sixcolors.com/)
+
 #### School
 [Stanford HAI](https://hai.stanford.edu/news/blog)
 [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
