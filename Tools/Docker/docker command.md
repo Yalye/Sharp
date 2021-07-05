@@ -39,6 +39,11 @@ echo "install complete!"
 docker rm -f a/b/3
 ```
 
+### docker ps
+```
+docker ps --no-trunc (-a)
+```
+
 ### docker enter container
 docker exec -it f2b952b8edcd /bin/bash
 
