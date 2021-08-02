@@ -50,6 +50,9 @@ setstatus
 ### sar 
 sar -n DEV 1
 
+### ssh restart
+systemctl restart sshd.service  
+
 ### commands
  * ip
  * ifconfig

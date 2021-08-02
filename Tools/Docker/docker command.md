@@ -34,9 +34,10 @@ echo "install complete!"
 
 ```
 
-### delete docker 
+### delete docker container
 ```
 docker rm -f a/b/3
+docker container rm
 ```
 
 ### docker ps

@@ -2,6 +2,8 @@
 #### 
 `docker build -t aa:1.0 .`
 
+#### delete dangling image
+`docker image prune`
 
 #### 
 1. create Dockerfile
