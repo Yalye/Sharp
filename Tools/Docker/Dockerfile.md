@@ -1,4 +1,4 @@
 
 ### command 
-`COPY、 CMD`
+`COPY、 CMD、 WORKDIR、 RUN`
 

@@ -40,6 +40,11 @@ docker rm -f a/b/3
 docker container rm
 ```
 
+### docker inspect image
+```
+docker run -it --entrypoint sh image
+```
+
 ### docker ps
 ```
 docker ps --no-trunc (-a)
