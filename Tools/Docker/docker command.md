@@ -53,5 +53,9 @@ docker ps --no-trunc (-a)
 ### docker enter container
 docker exec -it f2b952b8edcd /bin/bash
 
+### docker copy
+docker cp <src-path> <container>:<dest-path>  
+docker cp <container>:<src-path> <local-dest-path>   
+
 ### References
 https://yeasy.gitbook.io/docker_practice/introduction/why
