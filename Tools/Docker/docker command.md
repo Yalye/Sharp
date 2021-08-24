@@ -45,6 +45,11 @@ docker container rm
 docker run -it --entrypoint sh image
 ```
 
+### docker load 
+```
+docker load -i aa.tar
+```
+
 ### docker ps
 ```
 docker ps --no-trunc (-a)
