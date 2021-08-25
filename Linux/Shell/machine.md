@@ -19,6 +19,10 @@ cat /proc/cpuinfo
 ### open file 
 cat /proc/sys/fs/file-nr
 
+### centos info
+cat /etc/centos-release  
+cat /etc/os-release 
+
 ### commands
  * printenv
  * uname
