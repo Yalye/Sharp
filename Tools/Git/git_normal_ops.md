@@ -16,11 +16,15 @@ $ git branch -d <branch_name>    --- delete local branch
 ```
 git clone -b branch_name repo_url
 
-
 git clone -branch branch_name [--single-branch] repo_url
-
 
 git clone repo_url
 git branch -a
 git checkout branch_name
+```
+
+### create new branch
+```
+git checkout -b develop
+git push origin develop 
 ```

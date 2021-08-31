@@ -62,5 +62,15 @@ docker exec -it f2b952b8edcd /bin/bash
 docker cp <src-path> <container>:<dest-path>  
 docker cp <container>:<src-path> <local-dest-path>   
 
+### restore docker network
+```
+pkill docker
+iptables -t nat -F
+ifconfig docker0 down
+yum install bridge-utils -y
+brctl delbr docker0
+service docker restart
+```
+
 ### References
 https://yeasy.gitbook.io/docker_practice/introduction/why
