@@ -5,6 +5,9 @@
 #### delete dangling image
 `docker image prune`
 
+#### build centos and python environment
+
+
 #### 
 1. create Dockerfile
 2. `docker built -t aa:1.0 .`

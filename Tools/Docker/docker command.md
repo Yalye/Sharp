@@ -62,6 +62,9 @@ docker exec -it f2b952b8edcd /bin/bash
 docker cp <src-path> <container>:<dest-path>  
 docker cp <container>:<src-path> <local-dest-path>   
 
+copy folder files
+docker cp <src-path>/. <container>:<dest-path>/  
+
 ### restore docker network
 ```
 pkill docker

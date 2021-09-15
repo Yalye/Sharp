@@ -12,6 +12,12 @@ make install
 the pip3 needs the `ssl` module which should be installed ahead. 
 check the module using `rpm -aq|grep openssl`, install it with `yum install openssl-devel -y ` on CentOS
 
+### install pip
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+
 ### install mssql
 pip3 install mssql==**
 Error: ` _mssql.c:266:22: fatal error: sqlfront.h: No such file or directory`  
