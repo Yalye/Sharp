@@ -64,5 +64,8 @@ paste file1 file2 > file3
 ### sz zc
 yum install lrzsz
 
+### mkdir recursively
+mkdir -p a/b/c
+
 ### References
 [itsfoss tar-vs-zip-vs-gz](https://itsfoss.com/tar-vs-zip-vs-gz/)
