@@ -18,7 +18,7 @@ firewall-cmd --reload
 firewall-cmd --permanent --list-all
 
 ### open port
-firewall-cmd --add-port=9092/tcp --permanent
+firewall-cmd --add-port=9092/tcp --permanent --zone=public
 firewall-cmd --reload
 firewall-cmd --list-ports
 
@@ -49,6 +49,9 @@ setstatus
 
 ### sar 
 sar -n DEV 1
+
+### ssh restart
+systemctl restart sshd.service  
 
 ### commands
  * ip

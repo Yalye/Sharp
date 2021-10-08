@@ -19,7 +19,7 @@ usermod -d /data/ftp_path/test_ftp test_user
 usermod -aG wheel test_user
 
 ### tip
-
+be careful of using `su` in shell script.
 
 ### commands
  * useradd

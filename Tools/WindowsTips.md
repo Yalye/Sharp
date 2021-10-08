@@ -10,3 +10,7 @@ youtube-dl.exe "https://www.youtube.com/watch?v=***" --write-auto-sub
 youtube-dl.exe "https://www.youtube.com/watch?v=p3rfU36U0LE" --write-auto-sub
 
 https://www.youtube.com/watch?v=k4zYlusSpkc
+
+### mklink
+mklink link source_file
+

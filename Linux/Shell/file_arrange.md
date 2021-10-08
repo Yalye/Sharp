@@ -18,7 +18,7 @@ iptables -I INPUT -p icmp --icmp-type echo-request -j DROP
 
 ping use ICMP protocal which is used by network devices to send error messages and operational information indicating.
 
-### copy all files exclude a specific directory
+### copy all files exclude a specific directory( relative path, no .)
 rsync -av --progress ./ ../local_dir/ --exclude log
 rsync -az -e "ssh -p 13787" --progress ../local_dir --exclude ../local_dir/log root@10.10.31.50:/root/remote_dir/     --ignore-existing
 
@@ -63,6 +63,9 @@ paste file1 file2 > file3
 
 ### sz zc
 yum install lrzsz
+
+### mkdir recursively
+mkdir -p a/b/c
 
 ### References
 [itsfoss tar-vs-zip-vs-gz](https://itsfoss.com/tar-vs-zip-vs-gz/)

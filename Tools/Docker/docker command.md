@@ -34,13 +34,46 @@ echo "install complete!"
 
 ```
 
-### delete docker 
+### delete docker container
 ```
 docker rm -f a/b/3
+docker container rm
+```
+
+### docker inspect image
+```
+docker run -it --entrypoint sh image
+```
+
+### docker load 
+```
+docker load -i aa.tar
+```
+
+### docker ps
+```
+docker ps --no-trunc (-a)
 ```
 
 ### docker enter container
 docker exec -it f2b952b8edcd /bin/bash
+
+### docker copy
+docker cp <src-path> <container>:<dest-path>  
+docker cp <container>:<src-path> <local-dest-path>   
+
+copy folder files
+docker cp <src-path>/. <container>:<dest-path>/  
+
+### restore docker network
+```
+pkill docker
+iptables -t nat -F
+ifconfig docker0 down
+yum install bridge-utils -y
+brctl delbr docker0
+service docker restart
+```
 
 ### References
 https://yeasy.gitbook.io/docker_practice/introduction/why
