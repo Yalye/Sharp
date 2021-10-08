@@ -1,4 +1,6 @@
 
+### git rm -r cached .
+
 
 ### set alias
 edit `~/.gitconfig` like:
