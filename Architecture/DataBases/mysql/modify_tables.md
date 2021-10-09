@@ -30,6 +30,13 @@ alter table tb_website_info add column add_time DATETIME DEFAULT CURRENT_TIMESTA
 alter table tb_website_info modify column url varchar(150)
 
 alter table tb_website_info add primary key(url)
+
+
+```
+
+### delete table content
+```
+delete from table
 ```
 
 ### create table
