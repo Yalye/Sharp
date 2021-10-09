@@ -1,0 +1,6 @@
+first line
+<<<<<<< HEAD
+second line
+third line
+=======
+>>>>>>> parent of 7d03050... second commit
