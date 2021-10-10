@@ -20,3 +20,7 @@
         print "season_dict[%s]=" % k, v
 ```
 
+### add a new pair to all dicts in a list
+```
+list1 = [dict(item, new_key=new_value) for item in list]
+```

@@ -36,10 +36,15 @@ tr ' ' '\n' < FILE | grep WORD | wc -l
 ### find files with two strings in them
 `find . -type f -exec grep -l 'text1' {} \; | xargs grep -l 'text2'`
 
+### excluding some file in find 
+`find . ! -name 'a.txt'`
+
 ### list the directory tree
 `tree -N -L 2`
 
-
+### list all directories
+`ls -d */`  
+`ls -l | grep "^d"`
 
 ### command 
  * grep

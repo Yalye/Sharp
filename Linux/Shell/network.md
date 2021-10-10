@@ -8,6 +8,7 @@ curl -x socks5h://127.0.0.1:10036 http://www.google.com/
 
 ### curl with data
 curl --request POST --data '{"params":""}' http://127.0.0.1:7777/search
+curl http://*****/file  -O   or -o fileB
 
 ### open port to one specific ip
 firewall-cmd --permanent --add-rich-rule="rule family="ipv4" source address="1.1.1.1" port protocol="tcp" port="8888" accept"
