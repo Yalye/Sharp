@@ -16,6 +16,11 @@ alter user 'root'@'localhost' identified by 'asdf.123';
 
 ```
 
+### update 
+```
+UPDATE  ip SET ip = '202.88.38.18' WHERE id = 147
+```
+
 ### drop column
 ```
 alter table aaa drop column columnA;
