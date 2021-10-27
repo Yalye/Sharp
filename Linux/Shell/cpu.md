@@ -31,4 +31,7 @@ l1: a few cycles.   maybe 0.5ns
 l2: 2x to 10x higher latency than l1, faster than main memory. maybe 7ns
 l3: higher latency than l2.
 
+### grep from top
+top -p `pgrep "python"`
+
 
