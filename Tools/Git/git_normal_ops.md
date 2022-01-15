@@ -2,6 +2,9 @@
 ### git rm -r cached .
 
 
+### git add remote origin 
+git remote add origin git@github.com:****.git 
+
 ### set alias
 edit `~/.gitconfig` like:
 ```
