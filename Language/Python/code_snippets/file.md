@@ -24,6 +24,7 @@ os.path.split(whole_file_path)
 ```python
 def move_file_to(source_dir, target_dir):
     shutil.copy(source_dir, target_dir)
+```
 
 ### get all files of folder
 ```
@@ -37,13 +38,11 @@ def move_file_to(source_dir, target_dir):
             print(image_file)
 ``` 
 
-```
-def get_file_name(file_full_path):
-    """
+### get folder name `os.path.dirname(file)`
 
-    """
-    return os.path.split(whole_file_path)[-1]
-```
+### get bottom subfolder name `os.path.basename(os.path.dirname(file))`
+
+### get file name `os.path.split(whole_file_path)[-1]`
 
 ### read excel
 ```

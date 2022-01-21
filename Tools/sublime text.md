@@ -7,4 +7,7 @@ win:
 ctrl + shift + up/down ==> move line up/down
 alt + f3 ==> select all selected words
 
-
+#### replace \r\n with \n
+enable regular expression,
+find input:   \n+(ctrl + enter)
+replace: \n

@@ -4,7 +4,7 @@
 
 ```
 mysql_dir_name=mysql57
-docker_data_dir=/data/docker
+docker_data_dir=/home/data/docker
 
 yum install -y mysql
 systemctl status docker
@@ -46,6 +46,8 @@ sudo grep 'temporary password' /var/log/mysqld.log
 alter user 'root'@'localhost' identified by 'asdf.123';
 
 ```
+
+https://dev.mysql.com/get/mysql80-community-release-el7-4.noarch.rpm
 
 ### reset password
 [https://stackoverflow.com/questions/33510184/how-to-change-the-mysql-root-account-password-on-centos7](https://stackoverflow.com/questions/33510184/how-to-change-the-mysql-root-account-password-on-centos7)
