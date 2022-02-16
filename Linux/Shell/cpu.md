@@ -34,4 +34,8 @@ l3: higher latency than l2.
 ### grep from top
 top -p `pgrep "python"`
 
+### top sort by CPU
+top then P
+or use < and > keys
+
 
