@@ -6,6 +6,7 @@ command + right: move to right end
 win:
 ctrl + shift + up/down ==> move line up/down
 alt + f3 ==> select all selected words
+ctrl + shift + L ==> column cursors show
 
 #### replace \r\n with \n
 enable regular expression,
