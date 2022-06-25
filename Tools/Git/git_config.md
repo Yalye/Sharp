@@ -18,3 +18,6 @@ git clone git@192.168.4.134:~/test.git
 
 ```
 
+### update current repository commit name and email
+git config  user.name "git"
+git config  user.email "git@git-test.com"

@@ -55,3 +55,9 @@ pip install jupyter
 jupyter notebook
 ```
 
+### pip command
+show installed package:  `pip freeze | grep xxx` or `pip show xxx`
+show package version available: [Ref](https://stackoverflow.com/questions/4888027/python-and-pip-list-all-versions-of-a-package-thats-available)
+pip >= 21.2 `pip index versions pylibmc`
+pip >= 21.1 `pip install pylibmc==`
+pip >= 20.3 `pip install --use-deprecated=legacy-resolver pylibmc==`
