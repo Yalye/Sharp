@@ -54,6 +54,9 @@ sar -n DEV 1
 ### ssh restart
 systemctl restart sshd.service  
 
+### check network speed
+nload then up and down
+
 ### commands
  * ip
  * ifconfig

@@ -58,6 +58,21 @@ ret = worksheet.write_row(row, 0, ['a', 'b'])
 workbook.close()
 ```
 
+### insert image to excel
+```
+from PIL import Image
+image = Image.open(image_file_path)
+image_width, image_height = image.size
+
+x_scale = cell_width / image_width
+y_scale = cell_height / image_height
+
+worksheet.insert_image(i+1, 0, image_file_path,{'x_scale': x_scale, 'y_scale': y_scale})
+```
+
+### read excel
+
+
 ### json read
 ```
 import json

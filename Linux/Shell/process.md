@@ -10,6 +10,8 @@ cat status
 `nohup`:
 `disown`:
 
+nohup process > /dev/null 2>&1 &
+
 ### command
 * ps
 * uptime

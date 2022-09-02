@@ -75,5 +75,9 @@ brctl delbr docker0
 service docker restart
 ```
 
+### kill and removeall container
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
 ### References
 https://yeasy.gitbook.io/docker_practice/introduction/why
