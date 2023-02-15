@@ -36,12 +36,13 @@ alter table tb_website_info modify column url varchar(150)
 
 alter table tb_website_info add primary key(url)
 
+drop table aa;
 
 ```
 
 ### delete table content
 ```
-delete from table
+delete from table where condition
 ```
 
 ### create table
