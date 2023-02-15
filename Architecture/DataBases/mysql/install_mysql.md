@@ -42,6 +42,9 @@ docker run -d --restart always -p 43306:3306 \
 # yum -y install mysql-server
 # systemctl start mysqld
 
+mysql -uroot 
+login succeed
+
 sudo grep 'temporary password' /var/log/mysqld.log
 alter user 'root'@'localhost' identified by 'asdf.123';
 
